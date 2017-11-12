@@ -6,8 +6,8 @@ target 'rxswift-practice' do
   use_frameworks!
 
   # Pods for rxswift-practice
-  pod 'RxSwift'
-  pod 'RxCocoa'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
 
   target 'rxswift-practiceTests' do
     inherit! :search_paths
